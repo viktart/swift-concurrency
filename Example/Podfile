@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '11.0'
+
+target 'Concurrency_Example' do
+  pod 'Concurrency', :path => '../'
+  pod 'ObjCBridges', :path => '../'
+
+  target 'Concurrency_Tests' do
+    inherit! :search_paths
+    pod 'Concurrency', :testspecs => ['Tests'], :path => '../'
+  end
+end

@@ -1,0 +1,25 @@
+PODS:
+  - Concurrency (0.1.0):
+    - ObjCBridges
+  - Concurrency/Tests (0.1.0):
+    - ObjCBridges
+  - ObjCBridges (0.1.0)
+
+DEPENDENCIES:
+  - Concurrency (from `../`)
+  - Concurrency/Tests (from `../`)
+  - ObjCBridges (from `../`)
+
+EXTERNAL SOURCES:
+  Concurrency:
+    :path: "../"
+  ObjCBridges:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Concurrency: 70aad10f743fce5f079ef17823c1d2173ec16f8c
+  ObjCBridges: 3f9a09118d493488dea19ed62be62e26efd50a34
+
+PODFILE CHECKSUM: 76f52ebe7a4f49ced164f607afe055e3e0e32cef
+
+COCOAPODS: 1.14.2
